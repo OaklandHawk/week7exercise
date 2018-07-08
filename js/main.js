@@ -38,3 +38,30 @@ var myH4 = document.getElementById("myH4");
 
 
 
+var myArray = [
+	{
+		player: "Kent Bazemore",
+		team: "Hawks",
+		number: "24"
+	},
+	{
+		player: "LeBron James",
+		team: "Lakers",
+		number: "23"
+	},
+	{
+		player: "Kevin Durant",
+		team: "Warriors",
+		number: "35"
+	}
+];
+
+for(var i = 0; i < myArray.length; i++) {
+	console.log(myArray[i].player);
+	console.log(myArray[i].team);
+	console.log(myArray[i].number);
+}
+
+
+
+document.body.style.color = "red";
